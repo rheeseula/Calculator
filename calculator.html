@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="main.js"> </script>
+        
+        <title> 계산기 </title>
+    </head>
+
+    <body>
+        <h1> 오, 이것은 계산기입니까 ? </h1>
+
+        <table>
+            <tr>
+                <th id="Input" colspan="4px"> </th>
+            </tr>
+            <tr>
+                <td onclick="addInput('7');" class="Number"> 7 </th>
+                <td onclick="addInput('8');" class="Number"> 8 </th>
+                <td onclick="addInput('9');" class="Number"> 9 </th>
+                <td onclick="addInput('/');" class="Symbol"> ➗ </th>
+            </tr>
+            <tr>
+                <td onclick="addInput('4');" class="Number"> 4 </td>
+                <td onclick="addInput('5');" class="Number"> 5 </td>
+                <td onclick="addInput('6');" class="Number"> 6 </td>
+                <td onclick="addInput('*');" class="Symbol"> ✖️ </td>
+            </tr>
+            <tr>
+                <td onclick="addInput('1');" class="Number"> 1 </td>
+                <td onclick="addInput('2');" class="Number"> 2 </td>
+                <td onclick="addInput('3');" class="Number"> 3 </td>
+                <td onclick="addInput('-');" class="Symbol"> - </td>
+            </tr>
+            <tr>
+                <td onclick="addInput('.');" class="Symbol"> . </td>
+                <td onclick="addInput('0');" class="Number"> 0 </td>
+                <td onclick="Calc()" class="Symbol"> = </td>
+                <td onclick="addInput('+');" class="Symbol"> + </td>
+            </tr>
+        </table>
+    </body>
+</html>
